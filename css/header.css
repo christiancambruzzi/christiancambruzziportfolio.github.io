@@ -1,0 +1,45 @@
+.header {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* background: pink; */
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+/* #################### R E S P O N S I V O #################### */
+
+.header-menu a {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: 20px 15px;
+  }
+
+  .header-menu {
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .header-menu a {
+    font-size: 1rem;
+  }
+}
